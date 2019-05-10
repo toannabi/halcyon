@@ -1,0 +1,498 @@
+@font-face{
+    font-family: 'Gotham Rounded';
+    src: url(../fonts/GothamRounded-Light.otf);
+}
+@font-face{
+    font-family: 'Gotham Rounded-bold';
+    src: url(../fonts/GothamRounded-Bold.otf);
+}
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Gotham Rounded', sans-serif, serif;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+/* HEADER */
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 15% 5%;
+    text-align: center;
+}
+.banner h1{
+    font-size: 35px;
+    color: black;
+    font-weight: 300;
+}
+.gray{
+    color: #a1a9b0;
+}
+.banner p{
+    color: #8c9398;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.more-bt{
+    margin-top: 30px;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #3dc9b3;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 2px #309383;
+}
+.more-bt:hover{
+    background-color: #12594e;
+}
+/*INTRO*/
+.intro{
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.intro h3{
+    font-family: 'Gotham Rounded-bold',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.intro img{
+    width: 100%;
+    height: 16px;
+    margin-bottom: 30px;
+}
+.intro p{
+    line-height: 2;
+    color: #8c9398;
+}
+.black{
+    font-weight: bold;
+    color: black;
+}
+/*service-generic*/
+.service-generic{
+    margin-top: 5%;
+    text-align: center;
+    padding: 0 5%;
+}
+.service-generic h3{
+    font-family: 'Gotham Rounded-bold',sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.service-generic>img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    
+}
+.flex-element h4{
+    font-family: 'Gotham Rounded-bold',sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.boder{
+    margin: 5% auto;
+    width: 10%;
+    border-bottom: 3px solid #3dc9b3;
+
+}
+.flex-element p{
+    color: #8c9398; 
+    margin: 40px 0;
+}
+.service-iphone{
+    margin: 5% auto;
+    text-align: center;
+    
+}
+.iphone5s{
+    width: 100%;
+    background-color: #f3f5f8;
+}
+.service-iphone h4{
+    font-family: 'Gotham Rounded-bold',sans-serif;
+    font-size: 16px;
+    margin: 5% auto;
+    text-transform: uppercase;
+}
+.service-iphone img{
+    width: 100%;
+}
+.service-iphone p{
+    padding: 5%;
+    color: #8c9398;
+}
+.circle a{
+    color: #fff;
+    border: 2px solid #8c9398;
+    border-radius: 50%;
+    font-size: 8px;
+}
+.circle i:hover{
+    color: black;
+}
+.circle a:hover{
+    background-color: black;
+}
+.counter{
+    background-image: url(../images/Layer%209.png);
+    background-repeat: no-repeat;
+    padding: 12% 5%;
+    background-size: 100% 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.counter h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.counter h4{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+.design{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+}
+.affect-2 a{
+    background-color: #3dc9b3;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.affect-2 i{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    top: -2px;
+}
+.portfolio{
+    text-align: center;
+}
+.portfolio img{
+    width: 100%;
+	height: 120px;
+    position: relative;
+}
+.ae{
+    background-color: #50c5bb;
+    margin: 0px auto;
+	width: 50%;
+	height: 120px;
+    position: relative;
+}
+.portfolio img:hover{
+    opacity: 0.3;
+}
+.ae i{
+    position: absolute;
+    display: block;
+    font-size: 20px;
+    top: 35%;
+    left: 50%;
+    color: #fff;
+    display: none;
+}
+.ae span{
+    text-transform: uppercase;
+    position: absolute;
+    left: 35%;
+    top: 55%;
+    color: #fff;
+    display: none;
+}
+.ae:hover .view,.ae:hover i{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.ignite{
+    background-color: #242830;
+    padding: 7% 5%;
+    margin-top: 5%;
+    text-align: center;
+}
+.ignite-btn{
+    width: 50%;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #242830;
+    border: 2px solid #fff;
+}
+.ignite-btn:hover{
+    background-color: black;
+}
+.team{
+    margin-top: 5%;
+    text-align: center;
+}
+.team h3{
+    font-family: 'Gotham Rounded-bold',sans-serif;
+    margin: 25px 0;
+}
+.team > img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.team p{
+    color: #8c9398; 
+    margin-bottom: 20px;
+}
+.icons a{
+    display: inline-block;
+    border: 1px solid #242830;
+    background-color: #242830;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+}
+.icons i{
+    color: #fff;
+    font-size: 16px;
+}
+.icons a:hover{
+    background-color: black;
+}
+.subscribe{
+    background-image: url(../images/Layer%20226.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 10% 5%;
+    text-align: center;
+    position: relative;
+    
+}
+.subscribe i{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.subscribe h3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.text{
+    border: 2px solid #fff;
+    background: none;
+    height: 40px;
+    color: #fff;
+}
+.text:focus{
+    padding-left: 10px;
+}
+.submit{
+    height: 40px;
+    border-radius: 4px;
+    background-color: #3dc9b3;
+    border: 1px solid #3dc9b3;
+    color: #fff;
+}
+.submit:hover{
+    background-color: #12594e;
+    border: none;
+}
+.subscribe a{
+    border-radius: 50%;
+    background-color: #3dc9b3;
+    font-size: 30px;
+    position: absolute;
+    top: 90%;
+}
+.subscribe a i{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.footer{
+    background-image: url(../images/footer.jpg);
+    padding: 5% 0 0;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.footer h3{
+    font-family: 'Gotham Rounded-bold',sans-serif;
+    margin-top: 50px;
+}
+.footer>img{
+    width: 100%;
+    margin: 20px 0;
+}
+.box-infor{
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100px;  
+    
+}
+.box-infor h4{
+    padding: 20px 0;
+    color: #3dc9b3;
+    font-family: 'Gotham Rounded-bold',sans-serif;
+}
+.box-infor p {
+    color: #8c9398; 
+}
+.footer-end{
+    background-color: #242830;
+    padding: 5%;
+    line-height: 1.5;
+    color: #fff;
+}
+.gray-i{
+    color: #8c9398;
+    font-style: italic;
+}
+/* Media query table */
+@media screen and (min-width:481px)
+{
+    .more-bt{
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .intro img{
+        width: 65%;
+    }
+    .service-generic img{
+        width: 65%;
+    }
+    .portfolio img,.ae{
+        height: 200px;
+    }
+    .ae span{
+        left: 40%;
+        font-size: 16px;
+    }
+    .portfolio{
+        padding: 5%;
+    }
+    .ignite-btn{
+        height: 50px;
+        font-size: 16px;
+    }
+    .team{
+        padding: 5%;
+    }
+    .team>img{
+        width: 65%;
+    }
+    .subscribe h3{
+        font-size: 18px;
+        line-height: 2;
+    }
+    .subscribe i{
+        font-size: 25px;
+    }
+    .text{
+        height: 50px;
+        width: 200px;
+    }
+    .submit{
+        height: 50px;
+        width: 70px;
+    }
+    .footer img{
+        width: 65%;
+    }
+    .box-infor{
+        width: 50%;
+        margin: 1% 25% 15%;
+    }
+}
+/* media query pc */
+@media screen and (min-width:768px){
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .more-bt{
+        width: 200px;
+        height: 65px;
+        font-size: 14px;
+    }
+    .intro img{
+        width: 50%;
+        
+    }
+    .service-generic img{
+        width: 50%;
+    }
+    .service-generic .flex-element img{
+        width: 150px;
+        height: 150px;
+    }
+    .service-iphone .ae-2{
+        width: 50%;
+    }
+    .service-iphone p{
+        text-align: left;
+    }
+    .counter h3{
+        font-size: 40px;
+    }
+    .counter h4{
+        font-size: 30px;
+    }
+    .portfolio img,.ae {
+        width: 350px;
+        height: 200px;
+    }
+    .portfolio p{
+        padding: 0 1%;
+    }
+    .team>img{
+        width: 50%;
+    }
+    .team p{
+        padding: 0 1%;
+    }
+    .ignite-btn{
+        height: 75px;
+        width: 295px;
+    }
+    .text{
+        height: 65px;
+        width: 352px;
+    }
+    .submit{
+        height: 65px;
+        width: 100px;
+        font-size: 18px;
+    }
+    .subscribe a{
+        top: 95%;
+    }
+    .footer img{
+        width: 50%;
+        margin-bottom: 5%;
+    }
+}
+
+
+
